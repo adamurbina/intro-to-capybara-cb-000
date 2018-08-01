@@ -6,6 +6,7 @@ class Application < Sinatra::Base
 
   post "/greet" do
       erb :greet
+      raise params[:user_name]
   end
-
+  
 end
