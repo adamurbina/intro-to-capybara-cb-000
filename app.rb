@@ -5,7 +5,7 @@ class Application < Sinatra::Base
   end
 
   post "/greet" do
-      puts "reached!"
+      namey = params[:user_name]
       erb :greet
   end
 
