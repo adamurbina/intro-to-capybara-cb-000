@@ -6,7 +6,6 @@ class Application < Sinatra::Base
 
   post "/greet" do
       erb :greet
-      puts "print state:: #{DateTime.now}"
   end
 
 end
