@@ -1,7 +1,8 @@
 <%# Write your code here! %>
 <HTML>
     <% if params[:user_name] == ""
-        redirect_to "http://google.com" 
+        redirect_to "http://google.com"
     else %>
     <h1>Hi <%= params[:user_name] %>, nice to meet you!</h1>
+    <%end%>
 </HTML>
