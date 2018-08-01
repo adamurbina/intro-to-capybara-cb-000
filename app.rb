@@ -6,7 +6,7 @@ class Application < Sinatra::Base
 
   post "/greet" do
       erb :greet
-      puts "print state:: #{params[:user_name]}"
+      #puts "print state:: #{params[:user_name]}"
       #raise params[:user_name]
   end
 
